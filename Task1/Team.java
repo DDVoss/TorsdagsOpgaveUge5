@@ -9,12 +9,17 @@ class Team{
 	this.playerName = playerName;
 	}
 	
+	public int getRank(){
+		return this.teamRank;
+	}
+
 	public void setRank(int teamRank){
-		
+		this.teamRank = teamRank;
 	}	
 	
+	@Override
 	public String toString(){
-		String s = "Hold: " + this.teamName + "Rank: " + This.teamRank;
+		String s = "Hold: " + this.teamName + " Rank:" + this.teamRank;
 		return s;
 	}
 }
