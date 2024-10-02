@@ -5,15 +5,16 @@ class Team{
 	
 	public Team (String teamName){
 	this.teamName = teamName;
-	this.teamRank = 0;
+	this.teamRank = teamRank;
 	this.playerName = playerName;
 	}
 	
 	public void setRank(int teamRank){
-		this.teamRank = teamRank;
+		
 	}	
 	
-	//public String toString(){
-		//return "Hold: " + this.teamName + "Rank: " + setRank;
-	//}
+	public String toString(){
+		String s = "Hold: " + this.teamName + "Rank: " + This.teamRank;
+		return s;
+	}
 }
